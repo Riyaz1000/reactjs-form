@@ -29,13 +29,13 @@ function App() {
   };
 
   return (
-    <div className=" bg-gray-700 h-[695px]">
-      <p className="text-white font-semibold text-4xl p-7  text-center  ">
+    <div className=" bg-gray-700 sm:h-[695px] h-[695px]  m-auto">
+      <p className="text-white font-semibold sm:text-4xl text-2xl p-7  text-center  ">
         React Form
       </p>
 
       <form action="" onSubmit={submitFormToServer}>
-        <div className="bg-gray-200 mr-[500px] ml-[500px] h-[450px] p-10 rounded">
+        <div className="bg-gray-200 sm:mr-[500px] mr-[10px]  sm:ml-[500px] ml-[10px] h-[450px] p-10 rounded">
           {/* {JSON.stringify(fullName, setemailAddress)} */}
 
           <FormInput

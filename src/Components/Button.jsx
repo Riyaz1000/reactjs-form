@@ -5,7 +5,7 @@ const InputButton = ({ text }) => {
     <div>
       <button
         type=""
-        className="bg-black text-white hover:bg-gray-700 rounded px-48 py-2 mt-6"
+        className="bg-black text-white hover:bg-gray-700 rounded sm:px-48 px-24 py-2 mt-6"
       >
         {text}
       </button>

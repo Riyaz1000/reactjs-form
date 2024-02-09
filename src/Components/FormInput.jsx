@@ -10,7 +10,7 @@ const FormInput = ({
 }) => {
   //   console.log(props);
   return (
-    <div className="mt-4">
+    <div className="mt-4  ">
       <label htmlFor={name} className="mr-2 flex font-semibold ">
         {label}
 
@@ -21,7 +21,7 @@ const FormInput = ({
         name={name}
         type="text"
         placeholder={placeholder}
-        className="outline-none p-3 mt-1 px-32 py-2 rounded bg-gray-300"
+        className="outline-none p-3 mt-1 sm:px-32 px-8  py-2 rounded bg-gray-300"
         value={value}
         onChange={handleOnChange}
         required={required}
